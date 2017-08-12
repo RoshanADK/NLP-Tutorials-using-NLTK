@@ -17,7 +17,7 @@ from nltk.tokenize import word_tokenize
 ps = PorterStemmer()
 
 # Since this is a tokenized set of words hence no need to go for further Tokenization
-eg_words = ["Python","pythonli","pythonic","pythoner","pythoned"]
+eg_words = ["Python","pythonly","pythonic","pythoner","pythoned"]
 
 for w in eg_words:
 	print(ps.stem(w))   # This is how one calls the stemmer
@@ -30,3 +30,6 @@ for w in eg_words:
 # eg_sentence = "This is an example sentence"
 # words = word_tokenize(eg_sentence)
 # Rest of the steps are same as above 
+
+
+# And words case doesn't matter here 
