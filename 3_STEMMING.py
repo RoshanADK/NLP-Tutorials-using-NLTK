@@ -1,4 +1,4 @@
-# Stem projects the root to the ground. Similarly, we have affixes in our words attached to a stem
+# Stem in Plants projects the root to the ground. Similarly, we have affixes in our words attached to a stem
 # Removing those affixes is what STEMMING IS 
 # Example:  Running , Runs, Runnn, Runik, Runner   etc all has common STEM 'Run' Since all their meanings are same.
 
@@ -30,6 +30,7 @@ for w in eg_words:
 # eg_sentence = "This is an example sentence"
 # words = word_tokenize(eg_sentence)
 # Rest of the steps are same as above 
+
 
 
 # And words case doesn't matter here 
