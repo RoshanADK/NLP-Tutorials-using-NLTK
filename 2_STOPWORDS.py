@@ -13,7 +13,7 @@ from nltk.corpus import stopwords    # As you can read , importing the packages
 from nltk.tokenize import word_tokenize     # invoking word tokenizer 
 
 
-eg = "This is an example sentence as of the new rule of python and python lovers"
+eg = "Node is currently integrated with Salesforce, and customers can ask questions like  What company will be most interested in my product? Node will tell the customer who or what they need to connect with, why it came up with that answer, and even what to say to make the most of the opportunity. It's searching without using a search box."
 
 # Setting up the stopwords
 stop_words = set(stopwords.words("english"))
